@@ -1,0 +1,86 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.done{
+    color : red;
+    text-decoration: line-through;
+}
+
+div.container a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top : 25px;
+    background-color: white;
+    padding : 8px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 17px;
+    color : #eb92829d;
+    transition: .3s ease-in-out;
+    width: 180px;
+    font-weight: bold;
+}
+ 
+div.container a:hover {
+    color : #eb9282fb;
+    font-weight: bolder;
+}
+
+li {
+   cursor : pointer;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #454545;
+    margin-bottom: 25px;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    transition: 0.4s ease-in-out;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    min-width: 55%;
+    padding: 6px;
+    outline:  none;
+    margin-bottom: 25px;
+    font-size: 17px;
+    color: #eb9282f6;
+}
+
+input[type="text"]:hover{
+    background-color: #f5f2f1d8;
+}
+
+div.container {
+    color: rgba(0, 0, 0, 0.671);
+    font-size: 16px;
+    margin: 15px auto;
+    padding: 20px;
+    background: #eb92829d;
+    border-radius: 6px;
+    width: 35%;
+    min-width: 30%;
+}
+
+div.container a.invisible, .container h3.invisible {
+    display: none;
+    background-color: yellow;
+}
+  
+div.container ul {
+    list-style-type: circle;
+    line-height: 25px;
+    padding-left: 28px;
+}
