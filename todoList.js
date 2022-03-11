@@ -23,6 +23,7 @@ btnReset.addEventListener('click', ()=> {
     titreH3.classList.add("invisible");
     window.localStorage.removeItem('todoList');
     afficherTacheExistante();
+    input.value = "";
 })
 
 list.addEventListener('click', (e) => {
