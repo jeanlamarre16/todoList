@@ -34,7 +34,7 @@ function sauvegarderTache() {
     localStorage.todoList = list.innerHTML;
 }
 
-const afficherTache = function afficherTacheExistante() {
+function afficherTacheExistante() {
     if (localStorage.getItem("todoList") === null) {
         btnReset.classList.add('invisible');
         list.innerHTML = " ";
